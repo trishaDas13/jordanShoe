@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    /* height: 1000px; */
+}
+#heading1{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 0.7% 0;
+    background: linear-gradient(to right, rgb(3,1,1),  rgb(227,75,59));
+    color: white;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.header, .headerl{
+    margin-right: 35px;
+}
+.headerl{
+    margin-right: 1.5%;
+}
+input{
+    width: 30%;
+    height: 21px;
+    margin-right: 5px;
+    font-size: 21px;
+}
+input:focus{
+    outline: none;
+}
+
+.section1{
+    height: 21rem;
+    background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    /* border: 3px solid violet; */
+    width: 56%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 5.5rem;
+    left: 8.5rem;
+    padding: 1.5%;
+}
+#heading2{
+    color: white;
+    font-size: 28.8px;
+}
+#p1{
+    color: white;
+    font-size: 19.2px;
+}
+.section2{
+    /* border: 3px solid green; */
+    height: 15rem;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2a{
+    /* border: 3px solid green; */
+    height: 80%;
+    width: 90%;
+    background-color: rgb(160,160,160);
+    padding: 1%;
+    
+}
+#heading3{
+    opacity: 0.7;
+}
+.cards{
+    display: flex;
+    gap: 6px;
+}
+.card1, .card2, .card3{
+    /* border: 1px solid black; */
+    height: 140px;
+    width: 120px;
+    background-color: #606060;
+}
+.card1 img{
+    height: 110px;
+    width: 118px;
+}
+.card2 img{
+    height: 110px;
+    width: 118px;
+}
+.card3 img{
+    height: 110px;
+    width: 118px;
+}
+.p2{
+    color: white;
+}
+.section3{
+    height: 95vh;
+    background-image: linear-gradient(to right, rgb(67,67,67), rgb(0,0,0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3a{
+    /* border: 2px solid purple; */
+    height: 75%;
+    width: 85%;
+    background: linear-gradient(to right, rgb(3,1,1),  rgb(227,75,59));
+    box-shadow: 0 0 10px grey;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.para{
+    width: 40%;
+    /* border: 2px solid lightcoral; */
+}
+#heading4{
+    color: white;
+    margin-bottom: 2rem;
+}
+.p3{
+    color: white;
+    font-size: 18px;
+}
+.image{
+    /* border: 2px solid lightcoral; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image img{
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px  white;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    
+}
+img:hover{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    top: 11%;
+    right: 9%;
+}
